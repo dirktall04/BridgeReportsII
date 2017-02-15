@@ -1,0 +1,34 @@
+{
+  "name": "bridgereportsii",
+  "version": "1.0.0",
+  "description": "Bridge Reports II, Web App Builder widget version of the JSAPI Bridge Reports.",
+  "main": "Widget.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirktall04/BridgeReportsII.git"
+  },
+  "keywords": [
+    "Bridge",
+    "Reports",
+    "Webi",
+    "Web",
+    "App",
+    "Builder",
+    "Widget"
+  ],
+  "author": "Dirk Talley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dirktall04/BridgeReportsII/issues"
+  },
+  "homepage": "https://github.com/dirktall04/BridgeReportsII#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-reload": "^0.2.0"
+  },
+  "dependencies": {}
+}
