@@ -350,9 +350,10 @@ define(['dojo/_base/declare',
 
           console.log(this._bridgeWebiLink2ndPart);
           console.log(this._bridgeWebiLink2ndPart.toString());
-
+          
+          // Added target="_blank" to the <a ...> tag - 2017/08/14
           var dynamicInnerHtml = '<br><a href="' +
-            this._bridgeWebiLinkBase + this._bridgeWebiLink2ndPart + '">Features Report Link</a>' +
+            this._bridgeWebiLinkBase + this._bridgeWebiLink2ndPart + '" target="_blank">Features Report Link</a>' +
             '<br>' + '<b>Selected Feature IDs: ' +
             featureIDList + ' </b><br><br><br>';
 
